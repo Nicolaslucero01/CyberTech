@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Hero.module.css';
+import styles from './hero.module.css';
 import carouselOne from '../../../Assets/117.png'
 import carouselTwo from '../../../Assets/158.png'
 import HeroMarcas from '../../Container/HeroMarcas/HeroMarcas';
