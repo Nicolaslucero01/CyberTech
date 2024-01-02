@@ -12,6 +12,7 @@ function Hero() {
         <img src={carouselOne} alt="Slide 1" />
         <img src={carouselTwo} alt="Slide 2" />
       </div>
+      
       <h2>Las mejores marcas estan en CyberTech!</h2>
 
       <HeroMarcas/>
