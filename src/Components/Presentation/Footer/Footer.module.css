@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    background-color: #565656;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem 0.5rem;
+    margin-top: 2rem;
+}
+
+.containerHelp{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 250px;
+}
+
+
+.containerChild{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.containerHelp h4{
+    color: rgba(255, 255, 255, 0.815);
+    text-align: center;
+    height: 50px;
+}
+
+
+.containerChild a, span{
+    text-decoration: none;
+    color: rgb(219, 218, 218);
+    font-size: 16px;
+}
+
+@media(max-width: 425px){
+    .container{
+        gap: 1rem;
+    }    
+}
+

@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    padding: 7px 25px;
+    background-color: #452BB2;
+    color: white;
+    border: none;
+    outline: none;
+    justify-content: center;
+    cursor: pointer;
+}

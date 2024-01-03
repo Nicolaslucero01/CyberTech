@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 0.5rem;
+    gap: 1rem;
+
+}
+
+.containerTitle{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTitle h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.containerPrice{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerPrice span{
+    color: #452BB2;
+}
+
+.containerButton{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 425px){
+    .container{
+        width: 300px;
+    }
+
+    .containerTitle{
+        height: 280px;
+    }
+}

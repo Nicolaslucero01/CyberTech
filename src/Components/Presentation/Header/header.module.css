@@ -15,7 +15,6 @@
 .containerSearch{
     display: flex;
     justify-content: center;
-    background-color: red;
 }
 
 .inputSearch{
@@ -54,5 +53,12 @@
 
     .containerSearch{
         margin-top: -20px;
+    }
+
+
+    @media(max-width: 425px){
+        .containerNav{
+            gap: 0.5rem;
+        }
     }
 }

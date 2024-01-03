@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "Procesador INTEL CORE I5 13400F Socket 1700 ",
+      "salePrice": 400000,
+      "imagen": "../Assets/productos/xboxseriess.jpg",
+      "price": 650000,
+      "category": "Componentes"
+    },
+    {
+        "id": 2,
+        "name": "Procesador AMD AM4 Ryzen 5 5600G 5°Gen con video ",
+        "salePrice": 237000,
+        "imagen": "../Assets/productos/xboxseriess.jpg",
+        "price": 452000,
+        "category": "Componentes"
+      },
+
+      {
+        "id": 3,
+        "name": "Consola Xbox Series S 512GB",
+        "salePrice": 574000,
+        "imagen": "../Assets/productos/xboxseriess.jpg",
+        "price": 1253000,
+        "category": "Consola"
+      },
+
+      {
+        "id": 4,
+        "name": "Placa de Video NVIDIA GIGBAYTE GTX 1650",
+        "salePrice": 322500,
+        "imagen": "../Assets/productos/xboxseriess.jpg",
+        "price": 379500,
+        "category": "Componentes"
+      }
+
+  ]
