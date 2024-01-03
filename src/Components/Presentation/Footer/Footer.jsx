@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './footer.module.css'
 
-function footer(){ 
+function Footer(){ 
 return (
     <footer className={styles.container}>
         <div className={styles.containerHelp}>
@@ -13,7 +13,7 @@ return (
             </div>
         </div>
 
-        <div className={styles.containerHelp}>
+        <nav className={styles.containerHelp}>
             <h4>Ayuda</h4>
             <div className={styles.containerChild}>
                 <a href='#'>Políticas de devolución</a>
@@ -21,9 +21,9 @@ return (
                 <a href='"'>Botón de arrepentimiento</a>
                 
             </div>
-        </div>
+        </nav>
     </footer>
   )
 }
 
-export default footer 
+export default Footer 
