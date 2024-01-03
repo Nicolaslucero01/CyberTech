@@ -18,7 +18,7 @@ return (
             <div className={styles.containerChild}>
                 <a href='#'>Políticas de devolución</a>
                 <a href='"#'>Tramite de garantía</a>
-                <a href='"'>Botón de arrepentimiento</a>
+                <a href='#'>Botón de arrepentimiento</a>
                 
             </div>
         </nav>
