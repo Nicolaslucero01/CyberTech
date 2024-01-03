@@ -13,7 +13,7 @@ function Header() {
         <div className={styles.containerSearch}>
           <input className={styles.inputSearch}
             type="text"
-            placeholder="Buscar..."
+            placeholder=""
           />
           <button className={styles.inputButton}>🔍</button>
         </div>
