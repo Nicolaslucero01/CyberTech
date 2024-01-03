@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './footer.module.css'
+import styles from './Footer.module.css'
 
 function Footer(){ 
 return (
-    <footer className={styles.container}>
+    <div className={styles.container}>
         <div className={styles.containerHelp}>
             <h4>Contacto</h4>
             <div className={styles.containerChild}>
@@ -22,7 +22,7 @@ return (
                 
             </div>
         </nav>
-    </footer>
+    </div>
   )
 }
 
